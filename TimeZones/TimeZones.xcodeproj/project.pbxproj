@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43E3A02819500BA50060A120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E3A02719500BA50060A120 /* Foundation.framework */; };
+		43E3A02A19500BA50060A120 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E3A02919500BA50060A120 /* CoreGraphics.framework */; };
+		43E3A02C19500BA50060A120 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E3A02B19500BA50060A120 /* UIKit.framework */; };
+		43E3A04A19500BA50060A120 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E3A04919500BA50060A120 /* XCTest.framework */; };
+		43E3A04B19500BA50060A120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E3A02719500BA50060A120 /* Foundation.framework */; };
+		43E3A04C19500BA50060A120 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E3A02B19500BA50060A120 /* UIKit.framework */; };
+		43E3A05419500BA50060A120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43E3A05219500BA50060A120 /* InfoPlist.strings */; };
+		43E3A05619500BA50060A120 /* TimeZonesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A05519500BA50060A120 /* TimeZonesTests.m */; };
+		43E3A08C1950450D0060A120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0761950450D0060A120 /* AppDelegate.m */; };
+		43E3A08D1950450D0060A120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E3A0771950450D0060A120 /* Main.storyboard */; };
+		43E3A08E1950450D0060A120 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A07B1950450D0060A120 /* HomeViewController.m */; };
+		43E3A08F1950450D0060A120 /* SingInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A07D1950450D0060A120 /* SingInViewController.m */; };
+		43E3A0901950450D0060A120 /* SingUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A07F1950450D0060A120 /* SingUpViewController.m */; };
+		43E3A0911950450D0060A120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43E3A0801950450D0060A120 /* InfoPlist.strings */; };
+		43E3A0921950450D0060A120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E3A0821950450D0060A120 /* Images.xcassets */; };
+		43E3A0931950450D0060A120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0831950450D0060A120 /* main.m */; };
+		43E3A0941950450D0060A120 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0861950450D0060A120 /* RequestManager.m */; };
+		43E3A0951950450D0060A120 /* TimeZones-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E3A0871950450D0060A120 /* TimeZones-Info.plist */; };
+		43E3A0961950450D0060A120 /* UIAlertView+ShowError.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A08B1950450D0060A120 /* UIAlertView+ShowError.m */; };
+		43E3A09919504B830060A120 /* TimeZonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A09819504B830060A120 /* TimeZonesViewController.m */; };
+		43E3A09C19504B990060A120 /* AddTimeZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A09B19504B990060A120 /* AddTimeZoneViewController.m */; };
+		43E3A0A0195052CA0060A120 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A09F195052CA0060A120 /* User.m */; };
+		43E3A0A31950584C0060A120 /* Timezone.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0A21950584C0060A120 /* Timezone.m */; };
+		43E3A0A719516E050060A120 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0A619516E050060A120 /* TableViewCell.m */; };
+		43E3A0AA195178030060A120 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0A9195178030060A120 /* NSString+Empty.m */; };
+		43E3A0B51952E7840060A120 /* BaseInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E3A0B41952E7840060A120 /* BaseInputViewController.m */; };
+		7CF9FB8F151D4272B5BC5ABA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76A31099B64567ACF4C01B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43E3A04D19500BA50060A120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E3A01C19500BA50060A120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E3A02319500BA50060A120;
+			remoteInfo = TimeZones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F76A31099B64567ACF4C01B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E3A02419500BA50060A120 /* TimeZones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E3A02719500BA50060A120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43E3A02919500BA50060A120 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43E3A02B19500BA50060A120 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43E3A04819500BA50060A120 /* TimeZonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeZonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E3A04919500BA50060A120 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43E3A05119500BA50060A120 /* TimeZonesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeZonesTests-Info.plist"; sourceTree = "<group>"; };
+		43E3A05319500BA50060A120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43E3A05519500BA50060A120 /* TimeZonesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeZonesTests.m; sourceTree = "<group>"; };
+		43E3A0751950450D0060A120 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43E3A0761950450D0060A120 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43E3A0781950450D0060A120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43E3A07A1950450D0060A120 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		43E3A07B1950450D0060A120 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		43E3A07C1950450D0060A120 /* SingInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingInViewController.h; sourceTree = "<group>"; };
+		43E3A07D1950450D0060A120 /* SingInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingInViewController.m; sourceTree = "<group>"; };
+		43E3A07E1950450D0060A120 /* SingUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingUpViewController.h; sourceTree = "<group>"; };
+		43E3A07F1950450D0060A120 /* SingUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingUpViewController.m; sourceTree = "<group>"; };
+		43E3A0811950450D0060A120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43E3A0821950450D0060A120 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43E3A0831950450D0060A120 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43E3A0851950450D0060A120 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		43E3A0861950450D0060A120 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		43E3A0871950450D0060A120 /* TimeZones-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TimeZones-Info.plist"; sourceTree = "<group>"; };
+		43E3A0881950450D0060A120 /* TimeZones-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimeZones-Prefix.pch"; sourceTree = "<group>"; };
+		43E3A08A1950450D0060A120 /* UIAlertView+ShowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ShowError.h"; sourceTree = "<group>"; };
+		43E3A08B1950450D0060A120 /* UIAlertView+ShowError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ShowError.m"; sourceTree = "<group>"; };
+		43E3A09719504B830060A120 /* TimeZonesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeZonesViewController.h; sourceTree = "<group>"; };
+		43E3A09819504B830060A120 /* TimeZonesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeZonesViewController.m; sourceTree = "<group>"; };
+		43E3A09A19504B990060A120 /* AddTimeZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTimeZoneViewController.h; sourceTree = "<group>"; };
+		43E3A09B19504B990060A120 /* AddTimeZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTimeZoneViewController.m; sourceTree = "<group>"; };
+		43E3A09E195052CA0060A120 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		43E3A09F195052CA0060A120 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		43E3A0A11950584C0060A120 /* Timezone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timezone.h; sourceTree = "<group>"; };
+		43E3A0A21950584C0060A120 /* Timezone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timezone.m; sourceTree = "<group>"; };
+		43E3A0A519516E050060A120 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		43E3A0A619516E050060A120 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		43E3A0A8195178030060A120 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
+		43E3A0A9195178030060A120 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
+		43E3A0B21952C6460060A120 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		43E3A0B31952E7840060A120 /* BaseInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInputViewController.h; sourceTree = "<group>"; };
+		43E3A0B41952E7840060A120 /* BaseInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInputViewController.m; sourceTree = "<group>"; };
+		E65B83F3729F494CBAB41F39 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E3A02119500BA50060A120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3A02A19500BA50060A120 /* CoreGraphics.framework in Frameworks */,
+				43E3A02C19500BA50060A120 /* UIKit.framework in Frameworks */,
+				43E3A02819500BA50060A120 /* Foundation.framework in Frameworks */,
+				7CF9FB8F151D4272B5BC5ABA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E3A04519500BA50060A120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3A04A19500BA50060A120 /* XCTest.framework in Frameworks */,
+				43E3A04C19500BA50060A120 /* UIKit.framework in Frameworks */,
+				43E3A04B19500BA50060A120 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E3A01B19500BA50060A120 = {
+			isa = PBXGroup;
+			children = (
+				43E3A0741950450D0060A120 /* TimeZones */,
+				43E3A04F19500BA50060A120 /* TimeZonesTests */,
+				43E3A02619500BA50060A120 /* Frameworks */,
+				43E3A02519500BA50060A120 /* Products */,
+				E65B83F3729F494CBAB41F39 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		43E3A02519500BA50060A120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A02419500BA50060A120 /* TimeZones.app */,
+				43E3A04819500BA50060A120 /* TimeZonesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E3A02619500BA50060A120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A02719500BA50060A120 /* Foundation.framework */,
+				43E3A02919500BA50060A120 /* CoreGraphics.framework */,
+				43E3A02B19500BA50060A120 /* UIKit.framework */,
+				43E3A04919500BA50060A120 /* XCTest.framework */,
+				1F76A31099B64567ACF4C01B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43E3A04F19500BA50060A120 /* TimeZonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A05519500BA50060A120 /* TimeZonesTests.m */,
+				43E3A05019500BA50060A120 /* Supporting Files */,
+			);
+			path = TimeZonesTests;
+			sourceTree = "<group>";
+		};
+		43E3A05019500BA50060A120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A05119500BA50060A120 /* TimeZonesTests-Info.plist */,
+				43E3A05219500BA50060A120 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43E3A0741950450D0060A120 /* TimeZones */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A0A419516DEF0060A120 /* Cells */,
+				43E3A09D195052B70060A120 /* Models */,
+				43E3A0751950450D0060A120 /* AppDelegate.h */,
+				43E3A0761950450D0060A120 /* AppDelegate.m */,
+				43E3A0771950450D0060A120 /* Main.storyboard */,
+				43E3A0791950450D0060A120 /* Controllers */,
+				43E3A0801950450D0060A120 /* InfoPlist.strings */,
+				43E3A0821950450D0060A120 /* Images.xcassets */,
+				43E3A0831950450D0060A120 /* main.m */,
+				43E3A0841950450D0060A120 /* Networking */,
+				43E3A0871950450D0060A120 /* TimeZones-Info.plist */,
+				43E3A0881950450D0060A120 /* TimeZones-Prefix.pch */,
+				43E3A0891950450D0060A120 /* Utilities */,
+				43E3A0B21952C6460060A120 /* defines.h */,
+			);
+			path = TimeZones;
+			sourceTree = "<group>";
+		};
+		43E3A0791950450D0060A120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A07A1950450D0060A120 /* HomeViewController.h */,
+				43E3A07B1950450D0060A120 /* HomeViewController.m */,
+				43E3A07C1950450D0060A120 /* SingInViewController.h */,
+				43E3A07D1950450D0060A120 /* SingInViewController.m */,
+				43E3A07E1950450D0060A120 /* SingUpViewController.h */,
+				43E3A07F1950450D0060A120 /* SingUpViewController.m */,
+				43E3A09719504B830060A120 /* TimeZonesViewController.h */,
+				43E3A09819504B830060A120 /* TimeZonesViewController.m */,
+				43E3A09A19504B990060A120 /* AddTimeZoneViewController.h */,
+				43E3A09B19504B990060A120 /* AddTimeZoneViewController.m */,
+				43E3A0B31952E7840060A120 /* BaseInputViewController.h */,
+				43E3A0B41952E7840060A120 /* BaseInputViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		43E3A0841950450D0060A120 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A0851950450D0060A120 /* RequestManager.h */,
+				43E3A0861950450D0060A120 /* RequestManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		43E3A0891950450D0060A120 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A08A1950450D0060A120 /* UIAlertView+ShowError.h */,
+				43E3A08B1950450D0060A120 /* UIAlertView+ShowError.m */,
+				43E3A0A8195178030060A120 /* NSString+Empty.h */,
+				43E3A0A9195178030060A120 /* NSString+Empty.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		43E3A09D195052B70060A120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A09E195052CA0060A120 /* User.h */,
+				43E3A09F195052CA0060A120 /* User.m */,
+				43E3A0A11950584C0060A120 /* Timezone.h */,
+				43E3A0A21950584C0060A120 /* Timezone.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43E3A0A419516DEF0060A120 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				43E3A0A519516E050060A120 /* TableViewCell.h */,
+				43E3A0A619516E050060A120 /* TableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E3A02319500BA50060A120 /* TimeZones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E3A05919500BA50060A120 /* Build configuration list for PBXNativeTarget "TimeZones" */;
+			buildPhases = (
+				5AC60A32232742E983123455 /* Check Pods Manifest.lock */,
+				43E3A02019500BA50060A120 /* Sources */,
+				43E3A02119500BA50060A120 /* Frameworks */,
+				43E3A02219500BA50060A120 /* Resources */,
+				88F76F50AB86406783A9B5A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeZones;
+			productName = TimeZones;
+			productReference = 43E3A02419500BA50060A120 /* TimeZones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43E3A04719500BA50060A120 /* TimeZonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E3A05C19500BA50060A120 /* Build configuration list for PBXNativeTarget "TimeZonesTests" */;
+			buildPhases = (
+				43E3A04419500BA50060A120 /* Sources */,
+				43E3A04519500BA50060A120 /* Frameworks */,
+				43E3A04619500BA50060A120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43E3A04E19500BA50060A120 /* PBXTargetDependency */,
+			);
+			name = TimeZonesTests;
+			productName = TimeZonesTests;
+			productReference = 43E3A04819500BA50060A120 /* TimeZonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E3A01C19500BA50060A120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daria Sukhonosova";
+				TargetAttributes = {
+					43E3A04719500BA50060A120 = {
+						TestTargetID = 43E3A02319500BA50060A120;
+					};
+				};
+			};
+			buildConfigurationList = 43E3A01F19500BA50060A120 /* Build configuration list for PBXProject "TimeZones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43E3A01B19500BA50060A120;
+			productRefGroup = 43E3A02519500BA50060A120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E3A02319500BA50060A120 /* TimeZones */,
+				43E3A04719500BA50060A120 /* TimeZonesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43E3A02219500BA50060A120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3A0921950450D0060A120 /* Images.xcassets in Resources */,
+				43E3A0951950450D0060A120 /* TimeZones-Info.plist in Resources */,
+				43E3A08D1950450D0060A120 /* Main.storyboard in Resources */,
+				43E3A0911950450D0060A120 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E3A04619500BA50060A120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3A05419500BA50060A120 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC60A32232742E983123455 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88F76F50AB86406783A9B5A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E3A02019500BA50060A120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3A0A0195052CA0060A120 /* User.m in Sources */,
+				43E3A0A719516E050060A120 /* TableViewCell.m in Sources */,
+				43E3A0AA195178030060A120 /* NSString+Empty.m in Sources */,
+				43E3A0931950450D0060A120 /* main.m in Sources */,
+				43E3A0B51952E7840060A120 /* BaseInputViewController.m in Sources */,
+				43E3A09919504B830060A120 /* TimeZonesViewController.m in Sources */,
+				43E3A08C1950450D0060A120 /* AppDelegate.m in Sources */,
+				43E3A0961950450D0060A120 /* UIAlertView+ShowError.m in Sources */,
+				43E3A0A31950584C0060A120 /* Timezone.m in Sources */,
+				43E3A08E1950450D0060A120 /* HomeViewController.m in Sources */,
+				43E3A0941950450D0060A120 /* RequestManager.m in Sources */,
+				43E3A0901950450D0060A120 /* SingUpViewController.m in Sources */,
+				43E3A08F1950450D0060A120 /* SingInViewController.m in Sources */,
+				43E3A09C19504B990060A120 /* AddTimeZoneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E3A04419500BA50060A120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3A05619500BA50060A120 /* TimeZonesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43E3A04E19500BA50060A120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43E3A02319500BA50060A120 /* TimeZones */;
+			targetProxy = 43E3A04D19500BA50060A120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43E3A05219500BA50060A120 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E3A05319500BA50060A120 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43E3A0771950450D0060A120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E3A0781950450D0060A120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43E3A0801950450D0060A120 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E3A0811950450D0060A120 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43E3A05719500BA50060A120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E3A05819500BA50060A120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43E3A05A19500BA50060A120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65B83F3729F494CBAB41F39 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZones/TimeZones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43E3A05B19500BA50060A120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65B83F3729F494CBAB41F39 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZones/TimeZones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43E3A05D19500BA50060A120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeZones.app/TimeZones";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeZonesTests/TimeZonesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43E3A05E19500BA50060A120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeZones.app/TimeZones";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZonesTests/TimeZonesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E3A01F19500BA50060A120 /* Build configuration list for PBXProject "TimeZones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E3A05719500BA50060A120 /* Debug */,
+				43E3A05819500BA50060A120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E3A05919500BA50060A120 /* Build configuration list for PBXNativeTarget "TimeZones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E3A05A19500BA50060A120 /* Debug */,
+				43E3A05B19500BA50060A120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E3A05C19500BA50060A120 /* Build configuration list for PBXNativeTarget "TimeZonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E3A05D19500BA50060A120 /* Debug */,
+				43E3A05E19500BA50060A120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E3A01C19500BA50060A120 /* Project object */;
+}

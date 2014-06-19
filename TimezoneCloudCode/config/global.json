@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "TimeZones": {
+            "applicationId": "mhMXRrIk2vjhx5IysLypVgfVANL8J9DxFT9ABNdj", 
+            "masterKey": "lsPpbtnslT06xAfTqylksf34xJKBc7emA2N7WBGG"
+        }, 
+        "_default": {
+            "link": "TimeZones"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.18"
+    }
+}
